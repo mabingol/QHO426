@@ -3,4 +3,4 @@
 (x, y) = (4, 'fred')
 #print(y,"\n", x)
 
-print(x,y)
+print(x, y, x)
