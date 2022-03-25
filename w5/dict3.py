@@ -5,3 +5,9 @@ dict_car = {
   "colors": ["red", "white", "blue"]
 }
 print(dict_car)
+
+#x = dict_car["model"]
+#print(x)
+
+#x = dict_car.keys()
+#print(x)

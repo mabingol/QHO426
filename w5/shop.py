@@ -26,7 +26,7 @@ def till(basket = []):
     return total
 
 def run():
-    print("Welcome to Pete's shop - the best one ever! please have a look at all the items! Items available: ")
+    print("Welcome to QA's shop - the best one ever! please have a look at all the items! Items available: ")
     view_all(shop())
     b = basket()
     while True:

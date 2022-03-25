@@ -1,0 +1,19 @@
+A list of common Git commands can be found here (https://git-scm.com/docs). For this module, we will use the followig commands:
+
+git status - checks the status.  Indicates which files/folders have been newly created or changed.  This is a useful command to use before and after staging changes.
+git add . - stages all changes.  This command will need to be used before the changes can be committed.
+git commit -m "your message" - commits the changes.  You should replace "your message" with a suitable message indicating what has changed and why.
+git push - push everything from the local repository to the remote repository.  We will do this at least once at the end of each lesson.
+
+---
+
+Some student are getting this bug, which makes git unsure of who you are.
+Here are steps I recommended to others, which seem to work:
+In Command Prompt type in:
+git config user.name "name"
+(replacing the “name” with your GitHub username, still in quotation marks)
+Confirm with Enter and then type in the second command:
+git config user.email “name@changeme.com”
+(replacing “name@changeme.com” with your email, still in quotation marks)
+Confirm with Enter.
+Let me know if that works.
