@@ -4,10 +4,13 @@ dict_car = {
   "year": 2008,
   "colors": ["red", "white", "blue"]
 }
-print(dict_car)
+#print(dict_car)
 
 #x = dict_car["model"]
 #print(x)
 
-#x = dict_car.keys()
-#print(x)
+#y = dict_car["colors"]
+#print(y)
+
+x = dict_car.keys()
+print(x)
