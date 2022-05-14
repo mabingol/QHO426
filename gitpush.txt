@@ -16,4 +16,3 @@ Confirm with Enter and then type in the second command:
 git config user.email “name@changeme.com”
 (replacing “name@changeme.com” with your email, still in quotation marks)
 Confirm with Enter.
-Let me know if that works.
