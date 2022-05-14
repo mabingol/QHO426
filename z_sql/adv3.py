@@ -7,7 +7,8 @@ def _total_rows(table_name):
   rowcount = rows[0][0]
   return rowcount
 
-db = sqlite3.connect('C:\sqlite\teaching3.db')
+db = sqlite3.connect('teaching1.db')
+#db = sqlite3.connect('C:\sqlite\teaching3.db')
 cursor = db.cursor()
 sql_query = "SELECT tbl_name \
 FROM sqlite_master \
