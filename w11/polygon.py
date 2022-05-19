@@ -23,8 +23,29 @@ class Triangle(Polygon):
         s = (a + b + c) / 2
         area = (s*(s-a)*(s-b)*(s-c)) ** 0.5
         print('The area of the triangle is %0.2f' %area)
+
+
+class Rectangle(Polygon):
+  def __init__(self):
+        Polygon.__init__(self,2)
+    
+  def findArea(self):
+        a, b = self.sides
+        # calculate the semi-perimeter
+        area = a*b
+        print('The area of the rectangle is %0.2f' %area)
+
+class Square(Polygon):
+  def __init__(self):
+        Polygon.__init__(self,1)
+    
+  def findArea(self):
+        (a,) = self.sides
+        area = a**2
+        #area = a*a
+        print('The area of the square is %0.2f' %area)
       
-t = Triangle()
+t = Square()
 t.inputSides()
 
 t.dispSides()
