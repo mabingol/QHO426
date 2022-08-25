@@ -8,5 +8,4 @@ def animate(frame):
   ax.plot(range(range), range(frame))
 
 squares_animation = animation.FuncAnimation(fig, animate, frames = 10, interval = 100)
-
 plt.show()

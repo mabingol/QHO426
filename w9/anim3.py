@@ -13,8 +13,7 @@ def run():
   ax.set_xlim(0, 10)
   ax.set_ylim(0, 10)
   line, = ax.plot([], [], 'ro')
-  simple_animation = animation.FuncAnimation( fig, animate, frames = 10, interval = 1000)
-  
- plt.show()
-  
+  simple_animation = animation.FuncAnimation(fig, animate, frames = 10, interval = 1000)
+  plt.show()
+
 run()

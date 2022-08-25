@@ -1,0 +1,11 @@
+The main point of the lecture is to go over the PDF 22 - Data Files. 
+To enhance discussion, present/code in examples of using TXT, CSV and JSON files.
+Feel free to use own examples, or use those I attached in this order:
+
+W6_txt
+W6_convo
+W6_sauce
+W6_music
+W6_json
+
+Students use Replit to code, so please use it as well.

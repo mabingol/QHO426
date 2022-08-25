@@ -31,7 +31,6 @@ class Rectangle(Polygon):
     
   def findArea(self):
         a, b = self.sides
-        # calculate the semi-perimeter
         area = a*b
         print('The area of the rectangle is %0.2f' %area)
 

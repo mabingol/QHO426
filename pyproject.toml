@@ -7,6 +7,8 @@ authors = ["Muhammed-AliA30 <<>>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 triangle = "^20220202"
+pandas = "^1.4.2"
+demos = "^0.0.1"
 
 [tool.poetry.dev-dependencies]
 

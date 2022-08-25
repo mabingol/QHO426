@@ -8,7 +8,8 @@ def animate(frame):
 def run():
   fig, ax = plt.subplots()
   
-  simple_animation = animation.FuncAnimation(fig, animate, frames = 10, interval = 1000)
+  
+  simple_animation = animation.FuncAnimation(fig, animate, frames = 15, interval = 100)
   plt.show()
 
 run()

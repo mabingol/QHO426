@@ -18,7 +18,7 @@ def run():
   line, = ax.plot([], [], linewidth = 3)
   sine_animation = animation.FuncAnimation( fig, animate, frames = 720, interval = 1)
   
-  sine_animation.save('sin_graph.mp4', fps=15)
+  #sine_animation.save('sin_graph.mp4', fps=15)
   plt.show()
 
 run()
